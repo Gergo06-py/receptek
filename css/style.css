@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: fixed url('../pics/bg-body.jpg');
+}
+
+header {
+    background: center / cover no-repeat url('../pics/bg-header.jpg');
+    background-position: top;
+    height: 200px;
+    color: #fff;
+    padding: 40px;
+    font-size: 80px;
+    text-shadow: 0 0 6px #000;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    min-width: 715px;
+}
+
+.content {
+    display: flex;
+}
+
+main h2 {
+    display: inline;
+    background-color: #090;
+    color: #fff;
+    margin-top: 0;
+    line-height: 40px;
+    padding: 0 10px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+nav {
+    background-color: #333;
+    width: 20%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    border-bottom: dashed 1px #fff;
+    padding-bottom: 10px;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    width: calc(80% - 80px);
+    background: #fff;
+    padding: 20px 40px;
+}
+
+img.left {
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+img.right {
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    color: #333;
+}
+
+footer a:visited {
+    color: #000;
+}
